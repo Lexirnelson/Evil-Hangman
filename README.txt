@@ -1,7 +1,8 @@
 Alexa Nelson
-The biggest challenges I encountered with this project was implementing an algorithm to
-find every possible letter combo, and merging the possible combinations with the current
-word. To overcome this problem, I really just had to push through, and approach them from
-several different angles. Specifically for the merging, I just had to finagle with the
-setup of the loops. I actually really enjoyed this assignment, no complaints. I spent 16
-hours on this assignment. 
+This program uses recursion and mapping to make a game of hangman nearly impossible
+to win. The user chooses the length of the word, which limits the usable dictionary
+for the program. Then, the user will start guessing letters, and the program will 
+choose a group of words from the map based off of the map key with the most words in
+it. The words for each key are generated using a recursive function which finds all
+possible combinations for each possible letter combination. The portion of code 
+created by me is the hangman.cpp and hangman.h. 
